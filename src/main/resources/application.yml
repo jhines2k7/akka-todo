@@ -1,0 +1,12 @@
+#spring.jpa.hibernate.ddl-auto=update
+#spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
+#spring.datasource.username=springuser
+#spring.datasource.password=ThePassword
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://192.168.99.101:3306/todo
+    username: akka
+    password: akka-todo
